@@ -11,6 +11,7 @@ body {
 
 .fa-star {
     color: orange;
+    padding-left: 4px;
 }
 
 .container {
@@ -116,4 +117,62 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        width: 80%;
+    }
+    .header-and-ratings {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -1.7px;
+        max-width: 450px;
+    }
+
+    .head-p {
+        max-width: 450px;
+        text-align: left;
+    }
+
+    .ratings {
+        margin: 4rem 0 0 0;
+        flex-grow: 1;
+    }
+
+    .rate {
+        width: 450px;
+        margin-left: 200px;
+        display: flex;
+        padding: 16px 0 16px 16px;
+    }
+
+    .fa-star {
+        padding-left: 8px;
+    }
+
+    .five-stars {
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 3rem;
+    }
+
+    .card {
+        max-width: 350px;
+    }
+
+    .cards {
+        display: flex;
+        width: 1110px;
+    }
+
 }
