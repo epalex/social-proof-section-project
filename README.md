@@ -8,3 +8,7 @@
 ## Author
 
 - Frontend Mentor - [@epalex](https://www.frontendmentor.io/profile/epalex)
+
+## Areas for improvement
+
+- responsive design

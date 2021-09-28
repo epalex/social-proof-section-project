@@ -139,3 +139,86 @@ footer {
     color: darkgrey;
     margin-bottom: 20px;
 }
+
+
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        margin: 130px auto 40px auto;
+        width: 80%;
+    }
+
+    .header-and-ratings {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-header {
+        max-width: 450px;
+
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -1.71429px;
+        text-align: left;
+        margin: unset;
+        width: unset;
+    }
+
+    .header-p {
+        text-align: left;
+        margin: unset;
+        width: unset;
+        margin-top: 8px;
+    }
+
+    .rate {
+        width: 450px;
+        display: flex;
+        align-items: center;
+        padding: unset;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 32px;
+    }
+
+    .five-stars {
+        padding: unset;
+        margin-left: 32px;
+    }
+
+    .cards {
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .middle-card {
+        margin: unset;
+        position: relative;
+        bottom: 16px;
+    }
+
+    .first-card {
+        position: relative;
+        bottom: 32px;
+    }
+
+    .middle-rate {
+        position: relative;
+        right: 45px;
+    }
+
+    .first-rate {
+        position: relative;
+        right: 90px;
+    }
+
+}
