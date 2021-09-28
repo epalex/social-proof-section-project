@@ -9,170 +9,133 @@ body {
     font-family: 'Spartan', sans-serif;
 }
 
-.fa-star {
-    color: orange;
-    padding-left: 4px;
-}
-
 .container {
-    /* background-color: bisque; */
-    margin: 0 auto;
+    margin: 80px auto 40px auto;
     width: 90%;
 }
 
-.main-header {
-    margin-top: 4rem;
-}
-
 h1 {
-    color: hsl(300, 43%, 22%);
+    margin: 0 auto;
+    width: 80%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.14286px;
+    color: #512051;
     text-align: center;
 }
 
-.head-p {
+.header-p {
+    margin: 0 auto;
+    width: 95%;
+    font-style: normal;
+    font-weight: 500;
     font-size: 15px;
     line-height: 25px;
-    color: hsl(303, 10%, 53%);
-    font-weight: 500;
-    margin: 1.5rem 0;
-    text-align: center;
     letter-spacing: -0.5px;
+    color: #927b91;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 40px;
 }
 
 .rate {
-    background-color: hsl(300, 24%, 96%);
-    margin-bottom: 1rem;
-    text-align: center;
-    padding: 12px 0;
     border-radius: 8px;
+    background-color: #f7f2f7;
+    text-align: center;
+    padding-top: 16px;
 }
 
-.rate p {
-    padding-top: 8px;
-    font-size: 13px;
-    color: hsl(300, 43%, 22%);
+.middle-rate {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.fa-star {
+    color: #ef9546;
+    margin-right: 8px;
+}
+
+.five-stars {
+    padding-bottom: 15px;
+    padding-top: 16px;
+    font-style: normal;
     font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #512051;
 }
 
-.ratings {
-    margin-bottom: 3rem;
+.cards {
+    margin-top: 49px;
+}
+
+.middle-card {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .card {
-    background-color: hsl(300, 43%, 22%);
-    margin: 12px 0;
-    padding: 2.5rem 1.5rem;
-    border-radius: 0.5rem;
-}
-
-footer {
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 12px;
-    color: grey;
-    text-align: center;
-    font-weight: 500;
-}
-
-a {
-    text-decoration: none;
-    color: tomato;
-}
-
-.paminos {
-    color: yellowgreen;
-}
-
-.card img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.card header p {
-    font-size: 13px;
-}
-
-.name {
-    color: white;
-}
-
-.buyer {
-    color: hsl(333, 80%, 67%);
+    padding: 40px 32px 32px 32px;
+    border-radius: 8px;
+    background-color: #512051;
 }
 
 .card-text {
-    color: white;
+    font-style: normal;
+    font-weight: 500;
     font-size: 13px;
     line-height: 22px;
-    margin-top: 1.2rem;
+    letter-spacing: -0.232143px;
+    color: white;
+    margin-top: 26px;
 }
 
 .card-header {
     display: flex;
+    align-items: center;
 }
 
-.verified-buyer {
-    padding-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.card-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 23px;
+}
+
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.buyer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ee69a4;
 }
 
 
+footer a {
+    text-decoration: none;
+    color: #512051;
+}
 
-@media screen and (min-width: 768px) {
+.paminos {
+    color: tomato;
+    font-weight: 600;
+}
 
-    .container {
-        width: 80%;
-    }
-    .header-and-ratings {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    h1 {
-        text-align: left;
-        font-size: 48px;
-        line-height: 48px;
-        letter-spacing: -1.7px;
-        max-width: 450px;
-    }
-
-    .head-p {
-        max-width: 450px;
-        text-align: left;
-    }
-
-    .ratings {
-        margin: 4rem 0 0 0;
-        flex-grow: 1;
-    }
-
-    .rate {
-        width: 450px;
-        margin-left: 200px;
-        display: flex;
-        padding: 16px 0 16px 16px;
-    }
-
-    .fa-star {
-        padding-left: 8px;
-    }
-
-    .five-stars {
-        display: flex;
-        align-items: center;
-        padding: 0 0 0 3rem;
-    }
-
-    .card {
-        max-width: 350px;
-    }
-
-    .cards {
-        display: flex;
-        width: 1110px;
-    }
-
+footer {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    color: darkgrey;
+    margin-bottom: 20px;
 }
